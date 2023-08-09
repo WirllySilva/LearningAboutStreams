@@ -24,6 +24,6 @@ public class CreatingStreams {
         outrasLangs.stream().forEach(print);
         outrasLangs.parallelStream().forEach(print);
 
-        Stream.iterate(0, n -> n + 1).forEach(println);
+        //Stream.iterate(0, n -> n + 1).forEach(println);
     }
 }
