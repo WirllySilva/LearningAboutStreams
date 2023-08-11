@@ -4,11 +4,13 @@ public class Aluno {
 
     private String nome;
     private double nota;
+    private boolean aprovado;
 
 
     public Aluno(String nome, double nota) {
         this.nome = nome;
         this.nota = nota;
+        this.aprovado = true;
     }
 
     public String getNome() {
@@ -27,5 +29,12 @@ public class Aluno {
         this.nota = nota;
     }
 
+    public boolean getAprovado() {
+        return this.aprovado;
+    }
+    
+    public void setAprovado(boolean aprovado) {
+        this.aprovado = aprovado;
+    }
     
 }

@@ -18,7 +18,7 @@ public class Filter {
         List<Aluno> alunos = Arrays.asList(a1, a2, a3, a4, a5, a6);
 
         Predicate<Aluno> aprovado = a -> a.getNota() >= 7;
-        Function<Aluno, String> saudacao = a -> "Parabéns " + a.getNome() + "! Você foi aprovado!"
+        Function<Aluno, String> saudacao = a -> "Parabéns " + a.getNome() + "! Você foi aprovado!";
 
 
       alunos.stream()
